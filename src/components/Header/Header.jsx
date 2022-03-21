@@ -1,14 +1,14 @@
 import React from 'react';
-import './header.css';
+import './header.scss';
 
 import camera from './camera.svg';
 
 const Header = () => {
    return (
-      <h1>
+      <header>
          <img className="logo" src={camera} alt="Logo" />
-         V našem kině právě uvádíme
-      </h1>
+         <h1>V našem kině právě uvádíme</h1>
+      </header>
    )
 }
 

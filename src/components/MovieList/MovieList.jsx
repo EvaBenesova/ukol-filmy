@@ -1,10 +1,11 @@
 import React from 'react';
 import Movie from '../Movie/Movie';
+import './movieList.scss'
 
 
 const MovieList = ({ movies }) => {
    return (
-      <>
+      <section className='container'>
          {movies.map (key => 
          <Movie
             poster={key.poster}
@@ -15,7 +16,7 @@ const MovieList = ({ movies }) => {
             rating={key.rating}
             />)}
          
-      </>
+      </section>
    )
 }
 

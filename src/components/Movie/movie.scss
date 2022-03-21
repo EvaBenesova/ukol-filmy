@@ -1,0 +1,31 @@
+$color-primary:tomato;
+$color-secondary: orange;
+
+
+
+.content{
+   background-color: white;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   &__item{
+   
+      &-title{
+         color: $color-primary;
+         margin:0;
+      }
+      &-par{
+         margin:0;
+         font-size: 14px;
+      }
+   }
+   &__rating{
+      background-color: $color-secondary;
+      color: white;
+   }
+   &__img{
+      width:100%;
+      padding: 1rem;
+   }
+   
+}
+
