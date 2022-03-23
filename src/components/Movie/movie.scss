@@ -7,8 +7,9 @@ $color-secondary: orange;
    background-color: white;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+   padding: 1rem;
    &__item{
-   
+      padding:1rem;
       &-title{
          color: $color-primary;
          margin:0;
@@ -26,6 +27,16 @@ $color-secondary: orange;
       width:100%;
       padding: 1rem;
    }
+   &__cast{
+      font-size: 14px;
+      &-title{
+      color: $color-primary;
+      }
+      &-par{
+         margin: 0;
+      }
+   }
+   
    
 }
 

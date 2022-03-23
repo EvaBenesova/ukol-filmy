@@ -1,7 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './style.scss';
-import './movies.js';
 
 import Header from './components/Header/Header';
 import MovieList from './components/MovieList/MovieList';

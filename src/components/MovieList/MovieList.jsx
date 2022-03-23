@@ -14,6 +14,7 @@ const MovieList = ({ movies }) => {
             genre={key.genre}
             director={key.director}
             rating={key.rating}
+            cast={key.cast}
             />)}
          
       </section>
