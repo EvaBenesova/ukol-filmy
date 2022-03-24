@@ -4,7 +4,7 @@ import './actor.scss';
 const Actor = ({ name, as }) => {
    return (
       <div className='content__cast'>
-         <p className='content__cast-par'><strong>{name}</strong>as {as}</p>
+         <p className='content__cast-par'><strong>{name}</strong> as {as}</p>
       </div>
    )
 }
